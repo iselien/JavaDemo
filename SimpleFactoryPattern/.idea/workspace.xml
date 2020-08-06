@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b1b0738a-959e-44bb-8960-460f0f11fe01" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimpleFactoryPattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/yovelas/operation/Addition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/yovelas/operation/Division.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/yovelas/operation/Multiplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/yovelas/operation/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/yovelas/operation/OperationFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/yovelas/operation/Subtraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StrategyPattern/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StrategyPattern/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StrategyPattern/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StrategyPattern/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StrategyPattern/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StrategyPattern/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StrategyPattern/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StrategyPattern/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StrategyPattern/StrategyPattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StrategyPattern/src/io/yovelas/charge/Charge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StrategyPattern/src/io/yovelas/charge/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StrategyPattern/src/io/yovelas/charge/Discount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StrategyPattern/src/io/yovelas/charge/Normal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StrategyPattern/src/io/yovelas/charge/Rebate.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1fjFytNTfgXcxB9KW1OuacVNlYT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="io.yovelas.Main" />
+      <module name="SimpleFactoryPattern" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1b0738a-959e-44bb-8960-460f0f11fe01" name="Default Changelist" comment="" />
+      <created>1596723852354</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596723852354</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1596726142554">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1596726142554" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1596754114624">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596754114624" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1596754114623">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596754114623" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1596754114622">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596754114622" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1596754114623">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596754114623" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1596724299335">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1596724299335" />
+  </component>
+</project>
