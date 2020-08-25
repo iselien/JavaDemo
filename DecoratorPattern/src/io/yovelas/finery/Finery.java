@@ -2,7 +2,7 @@ package io.yovelas.finery;
 
 import io.yovelas.Entity.Person;
 
-public class Finery {
+public class Finery extends Person{
 
     private Person person;
 
@@ -10,6 +10,10 @@ public class Finery {
         this.person = person;
     }
 
-    void show() {
+    @Override
+    public void show() {
+        if(person != null){
+            person.show();
+        }
     }
 }
