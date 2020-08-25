@@ -13,6 +13,7 @@ public class Main {
         BigTrouser bigTrouser = new BigTrouser();
 
         tShirts.decorator(new Person("aa"));
-        bigTrouser.decorator(tShirts);
+//        bigTrouser.decorator(tShirts);
     }
+
 }
