@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+repositories {
+    mavenCentral()
+    flatDir {  // 添加本地libs
+        dirs 'libs', '../libs'
+    }
+}
+
+dependencies {
+    // 添加本地libs
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
