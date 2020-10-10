@@ -11,7 +11,7 @@ public class FileUtil {
 
 
     /**
-     * ´«ÈëÒ»¸öÎÄ¼şÂ·¾¶×Ö·û´®£¬½«ÎÄ¼şÄÚÈİ×ª»»Îª×Ö·û´®
+     * ä¼ å…¥ä¸€ä¸ªæ–‡ä»¶è·¯å¾„å­—ç¬¦ä¸²ï¼Œå°†æ–‡ä»¶å†…å®¹è½¬æ¢ä¸ºå­—ç¬¦ä¸²
      *
      * @param filePath
      * @return
@@ -49,7 +49,7 @@ public class FileUtil {
     }
 
     /**
-     * ´«Èë½«±»¿½±´µÄÔ­ÎÄ¼şÂ·¾¶×Ö·û´®ºÍ±»¿½±´µ½µÄÂ·¾¶×Ö·û´®£¬¿½±´³É¹¦·µ»Øtrue£¬Ê§°Üfalse
+     * ä¼ å…¥å°†è¢«æ‹·è´çš„åŸæ–‡ä»¶è·¯å¾„å­—ç¬¦ä¸²å’Œè¢«æ‹·è´åˆ°çš„è·¯å¾„å­—ç¬¦ä¸²ï¼Œæ‹·è´æˆåŠŸè¿”å›trueï¼Œå¤±è´¥false
      *
      * @param InputFile
      * @param OutputFile
@@ -66,9 +66,9 @@ public class FileUtil {
             fos = new FileOutputStream(outputfile);
 
             if (inputfile.exists() && inputfile.isFile()) {
-                System.out.println("ÎÄ¼ş´æÔÚ£¬²»ÊÇÄ¿Â¼");
+                System.out.println("æ–‡ä»¶å­˜åœ¨ï¼Œä¸æ˜¯ç›®å½•");
             } else {
-                System.out.println("ÎÄ¼ş²»´æÔÚ£¬ÍË³ö");
+                System.out.println("æ–‡ä»¶ä¸å­˜åœ¨ï¼Œé€€å‡º");
                 return false;
             }
 
@@ -147,7 +147,7 @@ public class FileUtil {
         if (!file.exists())
             return;
         if (file.delete())
-            System.err.println(file + "£º³É¹¦É¾³ı");
+            System.err.println(file + "ï¼šæˆåŠŸåˆ é™¤");
         else {
             for (File f : file.listFiles()) {
                 privateDelFile(f);
@@ -158,7 +158,7 @@ public class FileUtil {
     public static void main(String[] args) {
         FileUtil input = new FileUtil();
 //		System.out.println(input.readFileToString("C:\\Users\\y\\Desktop\\Demo1.java"));
-//		System.out.println(copyFile("E:\\aa.txt", "E:\\aaa.txt") ? "¿½±´³É¹¦" : "¿½±´Ê§°Ü");
+//		System.out.println(copyFile("E:\\aa.txt", "E:\\aaa.txt") ? "æ‹·è´æˆåŠŸ" : "æ‹·è´å¤±è´¥");
 //		input.delAndMkFile(new File("E:\\aa"));
 //		input.findFile(new File("E:\\aa"));
     }

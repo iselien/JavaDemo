@@ -10,7 +10,7 @@ package io.yovelas.common.string.demo;
 public class StringBufferDemo {
 
     /**
-     * StringBufferÊÇ×Ö·û´®±äÁ¿£¬ËüµÄ¶ÔÏóÊÇ¿ÉÒÔÀ©³äºÍĞŞ¸ÄµÄ¡£ËüÊÇÏß³Ì°²È«µÄ¿É±ä×Ö·ûĞòÁĞ¡£
+     * StringBufferæ˜¯å­—ç¬¦ä¸²å˜é‡ï¼Œå®ƒçš„å¯¹è±¡æ˜¯å¯ä»¥æ‰©å……å’Œä¿®æ”¹çš„ã€‚å®ƒæ˜¯çº¿ç¨‹å®‰å…¨çš„å¯å˜å­—ç¬¦åºåˆ—ã€‚
      */
 
     public static void main(String[] args) {
@@ -18,28 +18,28 @@ public class StringBufferDemo {
         StringBuffer sb1 = new StringBuffer("hello");
         System.out.println(sb1);
 
-        // ·µ»Øµ±Ç°ÈİÁ¿
+        // è¿”å›å½“å‰å®¹é‡
         System.out.println(sb1.capacity());
 
-        // ·µ»Ø³¤¶È
+        // è¿”å›é•¿åº¦
         System.out.println(sb1.length());
 
-        // append(String str) ¿ÉÒÔ°ÑÈÎÒâÀàĞÍÊı¾İ¼Óµ½×Ö·û´®»º³åÇøÀïÃæ£¬²¢·µ»Ø×Ö·û´®»º³åÇø±¾Éí
-        // insert(int offset, String str) ÔÚÖ¸¶¨Î»ÖÃ°ÑÈÎÒâÀàĞÍµÄÊı¾İ²åÈëµ½×Ö·û´®»º³åÇøÀïÃæ£¬²¢·µ»Ø×Ö·û´®»º³åÇø±¾Éí
+        // append(String str) å¯ä»¥æŠŠä»»æ„ç±»å‹æ•°æ®åŠ åˆ°å­—ç¬¦ä¸²ç¼“å†²åŒºé‡Œé¢ï¼Œå¹¶è¿”å›å­—ç¬¦ä¸²ç¼“å†²åŒºæœ¬èº«
+        // insert(int offset, String str) åœ¨æŒ‡å®šä½ç½®æŠŠä»»æ„ç±»å‹çš„æ•°æ®æ’å…¥åˆ°å­—ç¬¦ä¸²ç¼“å†²åŒºé‡Œé¢ï¼Œå¹¶è¿”å›å­—ç¬¦ä¸²ç¼“å†²åŒºæœ¬èº«
 
-        // É¾³ı¹¦ÄÜ
-        // deleteCharAt(int index) É¾³ıÖ¸¶¨Î»ÖÃµÄ×Ö·û£¬²¢·µ»Ø±¾Éí
-        // delete(int start, int end) É¾³ı´ÓÖ¸¶¨Î»ÖÃ¿ªÊ¼Ö¸¶¨Î»ÖÃ½áÊøµÄÄÚÈİ£¬²¢·µ»Ø±¾Éí
+        // åˆ é™¤åŠŸèƒ½
+        // deleteCharAt(int index) åˆ é™¤æŒ‡å®šä½ç½®çš„å­—ç¬¦ï¼Œå¹¶è¿”å›æœ¬èº«
+        // delete(int start, int end) åˆ é™¤ä»æŒ‡å®šä½ç½®å¼€å§‹æŒ‡å®šä½ç½®ç»“æŸçš„å†…å®¹ï¼Œå¹¶è¿”å›æœ¬èº«
 
-        // Ìæ»»ºÍ·´×ª¹¦ÄÜ
-        // replace(int start, int end, String str) ´Óstart¿ªÊ¼µ½endÓÃstrÌæ»»
+        // æ›¿æ¢å’Œåè½¬åŠŸèƒ½
+        // replace(int start, int end, String str) ä»startå¼€å§‹åˆ°endç”¨stræ›¿æ¢
 
-        // ·´×ª¹¦ÄÜ
-        // reverse() ×Ö·û´®·´×ª
+        // åè½¬åŠŸèƒ½
+        // reverse() å­—ç¬¦ä¸²åè½¬
 
-        // ½ØÈ¡¹¦ÄÜ
-        // substring(int start) ´ÓÖ¸¶¨Î»ÖÃ½ØÈ¡µ½Î´Î²
-        // substring(int start, int end) ½ØÈ¡´ÓÖ¸¶¨Î»ÖÃ¿ªÊ¼µ½½áÊøÎ»ÖÃ£¬°üÀ¨¿ªÊ¼Î»ÖÃ£¬²»°üÀ¨½áÊøÎ»ÖÃ
+        // æˆªå–åŠŸèƒ½
+        // substring(int start) ä»æŒ‡å®šä½ç½®æˆªå–åˆ°æœªå°¾
+        // substring(int start, int end) æˆªå–ä»æŒ‡å®šä½ç½®å¼€å§‹åˆ°ç»“æŸä½ç½®ï¼ŒåŒ…æ‹¬å¼€å§‹ä½ç½®ï¼Œä¸åŒ…æ‹¬ç»“æŸä½ç½®
 
 
 

@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * @Classname ArraysDemo
- * @Description java.util.ArraysÊÇÒ»¸öÓëÊý×éÏà¹ØµÄ¹¤¾ßÀà£¬ÀïÃæÌá¹©ÁË´óÁ¿¾²Ì¬·½·¨£¬ÓÃÀ´ÊµÏÖÊý×é³£¼ûµÄ²Ù×÷
+ * @Description java.util.Arraysæ˜¯ä¸€ä¸ªä¸Žæ•°ç»„ç›¸å…³çš„å·¥å…·ç±»ï¼Œé‡Œé¢æä¾›äº†å¤§é‡é™æ€æ–¹æ³•ï¼Œç”¨æ¥å®žçŽ°æ•°ç»„å¸¸è§çš„æ“ä½œ
  * @Date 2020/9/25 15:36
  * @Created by dykew
  */
@@ -12,15 +12,15 @@ import java.util.Arrays;
 public class ArraysDemo {
     public static void main(String[] args) {
         /**
-         *  Arrays.toString(Êý×é)£º½«²ÎÊýÊý×é±ä³É×Ö·û´®£¨°´ÕÕÄ¬ÈÏ¸ñÊ½£º[ÔªËØ1, ÔªËØ2, ÔªËØ3...]
-         *  Arrays.sort(Êý×é)£º°´ÕÕÄ¬ÈÏÉýÐò£¨´ÓÐ¡µ½´ó£©¶ÔÊý×éµÄÔªËØ½øÐÐÅÅÐò¡£
-         *  1. Èç¹ûÊÇÊýÖµ£¬sortÄ¬ÈÏ°´ÕÕÉýÐò´ÓÐ¡µ½´ó
-         *  2. Èç¹ûÊÇ×Ö·û´®£¬sortÄ¬ÈÏ°´ÕÕ×ÖÄ¸ÉýÐò
-         *  3. Èç¹ûÊÇ×Ô¶¨ÒåµÄÀàÐÍ£¬ÄÇÃ´Õâ¸ö×Ô¶¨ÒåµÄÀàÐèÒªÓÐComparable»òÕßComparator½Ó¿ÚµÄÖ§³Ö¡£
+         *  Arrays.toString(æ•°ç»„)ï¼šå°†å‚æ•°æ•°ç»„å˜æˆå­—ç¬¦ä¸²ï¼ˆæŒ‰ç…§é»˜è®¤æ ¼å¼ï¼š[å…ƒç´ 1, å…ƒç´ 2, å…ƒç´ 3...]
+         *  Arrays.sort(æ•°ç»„)ï¼šæŒ‰ç…§é»˜è®¤å‡åºï¼ˆä»Žå°åˆ°å¤§ï¼‰å¯¹æ•°ç»„çš„å…ƒç´ è¿›è¡ŒæŽ’åºã€‚
+         *  1. å¦‚æžœæ˜¯æ•°å€¼ï¼Œsorté»˜è®¤æŒ‰ç…§å‡åºä»Žå°åˆ°å¤§
+         *  2. å¦‚æžœæ˜¯å­—ç¬¦ä¸²ï¼Œsorté»˜è®¤æŒ‰ç…§å­—æ¯å‡åº
+         *  3. å¦‚æžœæ˜¯è‡ªå®šä¹‰çš„ç±»åž‹ï¼Œé‚£ä¹ˆè¿™ä¸ªè‡ªå®šä¹‰çš„ç±»éœ€è¦æœ‰Comparableæˆ–è€…ComparatoræŽ¥å£çš„æ”¯æŒã€‚
          */
 
         int[] intArray = {10, 20, 30};
-        // ½«int[]Êý×é°´ÕÕÄ¬ÈÏ¸ñÊ½±ä³É×Ö·û´®
+        // å°†int[]æ•°ç»„æŒ‰ç…§é»˜è®¤æ ¼å¼å˜æˆå­—ç¬¦ä¸²
         String intStr = Arrays.toString(intArray);
         System.out.println(intStr); // [10, 20, 30]
 
@@ -35,13 +35,13 @@ public class ArraysDemo {
 
         String str = "asv76agfqwdfvasdfvjh";
 
-        // ÈçºÎ½øÐÐÉýÐòÅÅÁÐ£ºsort
-        // ±ØÐëÊÇÒ»¸öÊý×é£¬²ÅÄÜÓÃArrays.sort·½·¨
-        // String --> Êý×é£¬ÓÃtoCharArray
+        // å¦‚ä½•è¿›è¡Œå‡åºæŽ’åˆ—ï¼šsort
+        // å¿…é¡»æ˜¯ä¸€ä¸ªæ•°ç»„ï¼Œæ‰èƒ½ç”¨Arrays.sortæ–¹æ³•
+        // String --> æ•°ç»„ï¼Œç”¨toCharArray
         char[] chars = str.toCharArray();
-        Arrays.sort(chars); // ¶Ô×Ö·ûÊý×é½øÐÐÉýÐòÅÅÁÐ
+        Arrays.sort(chars); // å¯¹å­—ç¬¦æ•°ç»„è¿›è¡Œå‡åºæŽ’åˆ—
 
-        // ÐèÒªµ¹Ðò±éÀú
+        // éœ€è¦å€’åºéåŽ†
         for (int i = chars.length - 1; i >= 0; i--) {
             System.out.println(chars[i]);
         }

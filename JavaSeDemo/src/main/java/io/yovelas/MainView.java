@@ -3,22 +3,22 @@ import java.util.Scanner;
 public class MainView {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		// newÒ»¸öÒµÎñÂß¼­²ãµÄ¶ÔÏó£¬ÓÃÓÚµ÷ÓÃÒµÎñÂß¼­²ãµÄ·½·¨
+		// newä¸€ä¸ªä¸šåŠ¡é€»è¾‘å±‚çš„å¯¹è±¡ï¼Œç”¨äºè°ƒç”¨ä¸šåŠ¡é€»è¾‘å±‚çš„æ–¹æ³•
 
 		int select;
 		do {
 			System.out.println();
 			System.out.println("word_manager");
-			System.out.println("1.²é¿´ËùÓĞµ¥´Ê\n2.¸ù¾İµ¥´Ê²é¿´ÒâË¼");
-			System.out.println("3.Ìí¼Óµ¥¸öµ¥´Ê\n4.ÅúÁ¿Ìí¼Óµ¥´Ê");
-			System.out.println("5.¸ù¾İÃû×ÖÉ¾³ıµ¥´Ê\n6.²é¿´Î´¼ÇµÄµ¥´Ê");
-			System.out.println("0.ÍË³öÏµÍ³");
-			System.out.print("ÇëÊäÈëÄãÒªÑ¡ÔñµÄ±àºÅ:");
+			System.out.println("1.æŸ¥çœ‹æ‰€æœ‰å•è¯\n2.æ ¹æ®å•è¯æŸ¥çœ‹æ„æ€");
+			System.out.println("3.æ·»åŠ å•ä¸ªå•è¯\n4.æ‰¹é‡æ·»åŠ å•è¯");
+			System.out.println("5.æ ¹æ®åå­—åˆ é™¤å•è¯\n6.æŸ¥çœ‹æœªè®°çš„å•è¯");
+			System.out.println("0.é€€å‡ºç³»ç»Ÿ");
+			System.out.print("è¯·è¾“å…¥ä½ è¦é€‰æ‹©çš„ç¼–å·:");
 			select = input.nextInt();
 			System.out.println();
 			switch (select) {
 			case 0:
-				System.out.println("ÍË³ö³É¹¦");
+				System.out.println("é€€å‡ºæˆåŠŸ");
 				break;
 			case 1:
 				

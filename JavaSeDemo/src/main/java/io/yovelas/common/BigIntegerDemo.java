@@ -2,7 +2,7 @@ package io.yovelas.common;
 
 /**
  * @Classname BigIntegerDemo
- * @Description BigInteger可以让超Integer范围内的数据进行运算
+ * @Description BigInteger鍙互璁╄秴Integer鑼冨洿鍐呯殑鏁版嵁杩涜杩愮畻
  * @Date 2020/9/25 16:48
  * @Created by dykew
  */

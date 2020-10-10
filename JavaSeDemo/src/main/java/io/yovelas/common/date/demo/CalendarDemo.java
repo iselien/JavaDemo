@@ -2,9 +2,9 @@ package io.yovelas.common.date.demo;
 
 /**
  * @Classname CalendarDemo
- * @Description CalendarÀàÊÇÒ»¸ö³éÏóÀà£¬
- * ËüÎªÌØ¶¨Ë²¼äÓëÒ»×éÖîÈçYEAR,MONTH,DAYOFMONTH,HOURµÈÈÕÀú×Ö¶ÎÖ®¼äµÄ×ª»»Ìá¹©ÁËÒ»Ğ©·½·¨£¬
- * ²¢Îª²Ù×÷ÈÕÀú×Ö¶ÎÌá¹©Ò»Ğ©·½·¨
+ * @Description Calendarç±»æ˜¯ä¸€ä¸ªæŠ½è±¡ç±»ï¼Œ
+ * å®ƒä¸ºç‰¹å®šç¬é—´ä¸ä¸€ç»„è¯¸å¦‚YEAR,MONTH,DAYOFMONTH,HOURç­‰æ—¥å†å­—æ®µä¹‹é—´çš„è½¬æ¢æä¾›äº†ä¸€äº›æ–¹æ³•ï¼Œ
+ * å¹¶ä¸ºæ“ä½œæ—¥å†å­—æ®µæä¾›ä¸€äº›æ–¹æ³•
  * @Date 2020/9/25 16:26
  * @Created by dykew
  */
@@ -12,8 +12,8 @@ package io.yovelas.common.date.demo;
 public class CalendarDemo {
 
     public static void main(String[] args) {
-        // getInstance() »ñÈ¡GregorianCalendarÊµÀı¶ÔÏó
-        // intget(int field)»ñÈ¡Ä³¸ö×Ö¶ÎµÄÖµ
+        // getInstance() è·å–GregorianCalendarå®ä¾‹å¯¹è±¡
+        // intget(int field)è·å–æŸä¸ªå­—æ®µçš„å€¼
 
         // add(int field, int amount)
         // set(int year, int month, int date)

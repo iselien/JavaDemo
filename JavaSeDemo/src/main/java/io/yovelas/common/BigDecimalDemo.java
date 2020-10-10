@@ -11,15 +11,15 @@ public class BigDecimalDemo {
 
     public static void main(String[] args) {
         /**
-         * ÓÉÓÚÔÚÔËËãµÄÊ±ºò£¬floatÀàĞÍºÍdoubleºÜÈİÒ×¶ªÊ§¾«¶È£¬ËùÒÔ£¬ÎªÁËÄÜ¾«È·µÄ±íÊ¾£¬¼ÆËã¸¡µãÊı£¬JavaÌá¹©ÁËBigDecimal²»¿É±äµÄ£¬ÈÎÒâ¾«¶ÈµÄÓĞ·ûºÅÊ®½øÖÆÊı
+         * ç”±äºåœ¨è¿ç®—çš„æ—¶å€™ï¼Œfloatç±»å‹å’Œdoubleå¾ˆå®¹æ˜“ä¸¢å¤±ç²¾åº¦ï¼Œæ‰€ä»¥ï¼Œä¸ºäº†èƒ½ç²¾ç¡®çš„è¡¨ç¤ºï¼Œè®¡ç®—æµ®ç‚¹æ•°ï¼ŒJavaæä¾›äº†BigDecimalä¸å¯å˜çš„ï¼Œä»»æ„ç²¾åº¦çš„æœ‰ç¬¦å·åè¿›åˆ¶æ•°
          */
 
         // BigDecimal(String val)
 
-        // add(BigDecimal augend) ¼Ó
-        // subtract(BigDecimal subtrahend) ¼õ
-        // multiply(BigDecimal multiplicand) ³Ë
-        // divide(BigDecimal divisor) ³ı·¨(µ±³ı²»¾¡Ê±£¬´Ë·½·¨»áÅ×³öÒì³£)
-        // divide(BigDecimal divisor, int scale, int roundingMode) ³ı·¨(Ö¸¶¨¾«¶È£¬Ö¸¶¨ÉáÈëÄ£Ê½)
+        // add(BigDecimal augend) åŠ 
+        // subtract(BigDecimal subtrahend) å‡
+        // multiply(BigDecimal multiplicand) ä¹˜
+        // divide(BigDecimal divisor) é™¤æ³•(å½“é™¤ä¸å°½æ—¶ï¼Œæ­¤æ–¹æ³•ä¼šæŠ›å‡ºå¼‚å¸¸)
+        // divide(BigDecimal divisor, int scale, int roundingMode) é™¤æ³•(æŒ‡å®šç²¾åº¦ï¼ŒæŒ‡å®šèˆå…¥æ¨¡å¼)
     }
 }

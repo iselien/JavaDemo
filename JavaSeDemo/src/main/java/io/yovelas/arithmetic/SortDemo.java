@@ -15,7 +15,7 @@ public class SortDemo {
     }
 
     /**
-     * Ã°ÅİÅÅĞò
+     * å†’æ³¡æ’åº
      */
     public void bubbleSort(){
         int a[]={49,38,65,97,76,13,27,49,78,34,12,64,5,4,62,99,98,54,56,17,18,23,34,15,35,25,53,51};
@@ -34,14 +34,14 @@ public class SortDemo {
     }
 
     public void SelectSort(int[] array) {
-        int i, j, k;// ·Ö±ğÎªÓĞĞòÇø£¬ÎŞĞòÇø£¬ÎŞĞòÇø×îĞ¡ÔªËØÖ¸Õë
+        int i, j, k;// åˆ†åˆ«ä¸ºæœ‰åºåŒºï¼Œæ— åºåŒºï¼Œæ— åºåŒºæœ€å°å…ƒç´ æŒ‡é’ˆ
         for (i = 0; i < array.length; i++) {
             k = i;
             for (j = i + 1; j < array.length; j++) {
                 if (array[j] < array[k])
                     k = j;
             }
-            if (k != i){ // Èô·¢ÏÖ×îĞ¡ÔªËØ£¬ÔòÒÆ¶¯µ½ÓĞĞòÇø
+            if (k != i){ // è‹¥å‘ç°æœ€å°å…ƒç´ ï¼Œåˆ™ç§»åŠ¨åˆ°æœ‰åºåŒº
                 int temp = array[k];
 //                array[k] = array;
 //                array = array[temp];

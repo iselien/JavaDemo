@@ -5,7 +5,7 @@ import java.util.Date;
 
 /**
  * @Classname SimpleDataFormatDemo
- * @Description DateÊÇÈÕÆÚ/Ê±¼ä¸ñÊ½»¯×ÓÀàµÄ³éÏóÀà£¬ËüÒÔÓëÓïÑÔÎŞ¹Ø¸ñÊ½»¯²¢½âÎöÈÕÆÚ»òÊ±¼ä¡£ÊÇ³éÏóÀà£¬ËùÒÔÊ¹ÓÃÆä×ÓÀà
+ * @Description Dateæ˜¯æ—¥æœŸ/æ—¶é—´æ ¼å¼åŒ–å­ç±»çš„æŠ½è±¡ç±»ï¼Œå®ƒä»¥ä¸è¯­è¨€æ— å…³æ ¼å¼åŒ–å¹¶è§£ææ—¥æœŸæˆ–æ—¶é—´ã€‚æ˜¯æŠ½è±¡ç±»ï¼Œæ‰€ä»¥ä½¿ç”¨å…¶å­ç±»
  * @Date 2020/9/25 16:34
  * @Created by dykew
  */
@@ -13,18 +13,18 @@ import java.util.Date;
 public class SimpleDataFormatDemo {
 
     public static void main(String[] args) {
-        // SimpleDataFormat() Ê¹ÓÃÄ¬ÈÏµÄÄ£Ê½ºÍÄ¬ÈÏÓïÑÔ»·¾³ÈÕÆÚ¸ñÊ½·ûºÅ¹¹ÔìSimpleDateFormat
-        // SimpleDataFormat(String pattern) ÓÃ¸ø¶¨µÄÄ£Ê½ºÍÄ¬ÈÏÓïÑÔ»·¾³µÄÈÕÆÚ¸ñÊ½·ûºÅ¹¹Ôì
+        // SimpleDataFormat() ä½¿ç”¨é»˜è®¤çš„æ¨¡å¼å’Œé»˜è®¤è¯­è¨€ç¯å¢ƒæ—¥æœŸæ ¼å¼ç¬¦å·æ„é€ SimpleDateFormat
+        // SimpleDataFormat(String pattern) ç”¨ç»™å®šçš„æ¨¡å¼å’Œé»˜è®¤è¯­è¨€ç¯å¢ƒçš„æ—¥æœŸæ ¼å¼ç¬¦å·æ„é€ 
 
-        // format(Date date) ½«Ò»¸öDate×ª»»ÎªString
-        // Dateparse(String source) ½«Ò»¸öString×ª»»ÎªDate
+        // format(Date date) å°†ä¸€ä¸ªDateè½¬æ¢ä¸ºString
+        // Dateparse(String source) å°†ä¸€ä¸ªStringè½¬æ¢ä¸ºDate
 
         long time = System.currentTimeMillis();
         Date date = new Date(time);
         System.out.println(date.toString());
         DateFormat dateFormat = DateFormat.getDateInstance(DateFormat.FULL);
         dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG);
-        // µ÷ÓÃ format ·½·¨¶ÔÈÕÆÚ¶ÔÏó½øĞĞ¸ñÊ½»¯¡£ÓÃÄ¬ÈÏ·ç¸ñ¡£
+        // è°ƒç”¨ format æ–¹æ³•å¯¹æ—¥æœŸå¯¹è±¡è¿›è¡Œæ ¼å¼åŒ–ã€‚ç”¨é»˜è®¤é£æ ¼ã€‚
         String str_date = dateFormat.format(date);
         System.out.println(str_date);
     }
