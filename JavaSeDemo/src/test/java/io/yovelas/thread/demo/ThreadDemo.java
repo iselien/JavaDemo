@@ -1,70 +1,126 @@
 package io.yovelas.thread.demo;
 
-import org.junit.Test;
+
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Timeout;
+
+import java.util.concurrent.CountDownLatch;
+
+import static java.time.Duration.*;
+import static org.junit.jupiter.api.Assertions.assertTimeout;
+import static org.junit.jupiter.api.Assertions.assertTimeoutPreemptively;
 
 public class ThreadDemo {
 
+    /**
+     * 通过Thread构造函数可以传入线程名称
+     * 通过getNate()方法获取线程名称
+     */
+    @Test
+    public void threadNameTransmit(){
 
-    public static void main(String[] args) {
-//        MyThread myThread = new MyThread("subThrad");
-//        myThread.start();
+        new Thread("threadOne") {
+            public void run() {
+                for(int i = 0; i < 5; i++) {
+                    // 通过getName获取线程的名称，并输出
+                    System.out.println(this.getName() + "....thread running");
+                }
+            }
+        }.start();
 
-        ImplRannable implRannable1 = new ImplRannable();
-        ImplRannable implRannable2 = new ImplRannable();
-        ImplRannable implRannable3 = new ImplRannable();
-        new Thread(implRannable1).start();
-        new Thread(implRannable2).start();
-        Thread thread = new Thread(implRannable3);
-        thread.setName("aaserf");
-        thread.start();
-        System.err.println(thread.getName());
-
+        new Thread("threadTwo") {
+            public void run() {
+                for(int i = 0; i < 5; i++) {
+                    // 通过getName获取线程的名称，并输出
+                    System.out.println(this.getName() + "....thread running");
+                }
+            }
+        }.start();
     }
-
-//    public static void main(String[] args) {
-//        Runnable runnable = new Runnable() {
-//            @Override
-//            public void run() {
-//                for (int i = 0; i < 10; i++) {
-//                    System.out.println("runnable在执行：" + i);
-//                }
-//            }
-//        };
-//
-//        new Thread(runnable).start();
-//
-//        for (int i = 0; i < 10; i++) {
-//            System.out.println("main在执行：" + i);
-//        }
-//
-//    }
-
 
     /**
-     * 什么是线程
-     * 线程是程序执行的一条路径，一个进程中可以包含多条线程
-     * 多线程并发执行可以提高程序的效率，可以同时完成多项工作
-     *
-     * 多线程并行和并发的区别
-     * 并行就是两个任务同时运行，就是甲任务进行的同时，乙任务也在进行。(需要多核CPU)
-     * 并发是指两个任务都请求运行，而处理器只能接受一个任务，就把两个任务安排轮流进行，由于时间间隔较短，使人感觉两个任务都在运行。
-     *
-     * 多线程实现方式2
-     *
-     * 实现Runnable接口，实现run方法
-     *
-     * 获取线程名字，通过getNate()方法获取线程对象的名字
-     * 设置名字，通过构造函数可以传入String类型的名字
-     *
-     *
+     * 通过setName()方法设置线程名称
      */
-
-
     @Test
-    public void tt(){
-        System.out.println("aaa");
+    public void threadNameSet(){
+
+        Thread threadOne = new Thread() {
+            public void run() {
+                for(int i = 0; i < 5; i++) {
+                    System.out.println(this.getName() + "....thread running");
+                }
+            }
+        };
+
+        Thread threadTwo = new Thread() {
+            public void run() {
+                for(int i = 0; i < 5; i++) {
+                    System.out.println(this.getName() + "....thread running");
+                }
+            }
+        };
+        threadOne.setName("threadOne");
+        threadTwo.setName("threadTwo");
+        threadOne.start();
+        threadTwo.start();
     }
 
+    /**
+     * 获取当前线程
+     */
+    @Test
+    public void getCurrentThread(){
+        Thread thread = Thread.currentThread();
+        System.out.printf("currentThread: %s\n",thread.getName());
+    }
+
+    /**
+     * 线程休眠
+     * 控制当前线程休眠若干毫秒
+     * 1秒 = 1000毫秒 = 1000*1000*1000纳秒
+     */
+    @Test
+    @Timeout(5)
+    public void threadSleep() throws InterruptedException {
+//        new CountDownLatch(1);
+
+        CountDownLatch latch=new CountDownLatch(100);
+
+//        assertTimeoutPreemptively(ofMinutes(10), () -> {
+            // Simulate task that takes more than 10 ms.
+        new Thread("threadOne") {
+            public void run() {
+                for(int i = 0; i < 5; i++) {
+                    System.out.println(getName() + "...thread running");
+                    try {
+                        // 休眠100毫秒
+                        Thread.sleep(10);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+        }.start();
+
+        new Thread("threadTwo") {
+            public void run() {
+                for(int i = 0; i < 5; i++) {
+                    System.out.println(getName() + "...thread running");
+                    try {
+                        // 休眠100毫秒
+                        Thread.sleep(10);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+        }.start();
+
+        latch.await();
+
+//        });
+    }
 
 
 }
