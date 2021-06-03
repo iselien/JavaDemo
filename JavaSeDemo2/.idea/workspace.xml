@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="835264b1-d8ce-47b5-9732-9bdfee2315c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../JavaSeDemo/.idea/JavaSeDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaSeDemo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaSeDemo/CrackCompress/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaSeDemo/CrackCompress/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaSeDemo/CrackCompress/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaSeDemo/CrackCompress/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaSeDemo/CrackCompress/src/main/java/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaSeDemo/CrackCompress/src/main/java/demo/ZipFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaSeDemo/CrackCompress/src/main/java/demo/ZipFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaSeDemo/CrackCompress/src/main/java/demo/ZipMultipleFiles.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaSeDemo/CrackCompress/src/main/java/demo/ZipMultipleFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaSeDemo/CrackCompress/src/main/java/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaSeDemo/CrackCompress/src/main/java/test2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaSeDemo/IODemo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaSeDemo/IODemo/src/main/java/CopyFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaSeDemo/IODemo/src/main/java/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaSeDemo/IODemo/src/main/java/Demo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaSeDemo/IODemo/src/main/java/Demo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaSeDemo/IODemo/src/main/java/FileReaderDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaSeDemo/IODemo/src/main/java/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaSeDemo/IODemo/src/main/java/FileWriteDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaSeDemo/IODemo/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaSeDemo/IODemo/src/main/java/ReadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaSeDemo/IODemo/src/main/java/WriteFull.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/JavaDemo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.gradle/6.3/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.gradle/6.3/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.gradle/6.3/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.gradle/6.3/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.gradle/6.3/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.gradle/6.3/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.gradle/6.5/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.gradle/6.5/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.gradle/6.5/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.gradle/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.gradle/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.gradle/workspace-id.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.gradle/workspace-id.txt.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaSeDemo/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaSeDemo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaSeDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/MainView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/com/company/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/Extract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/HtmlToPdf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/annotation/demo/AnnotationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/annotation/demo/Column.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/annotation/demo/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/annotation/demo/Table.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/annotation/demo/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/annotation/demo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/arithmetic/SortDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/common/BigDecimalDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/common/BigIntegerDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/common/DataConversionDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/common/array/demo/ArrayDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/common/array/demo/ArraysDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/common/character/demo/CharDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/common/date/demo/CalendarDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/common/date/demo/DateDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/common/date/demo/SimpleDataFormatDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/common/math/demo/MathDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/common/random/demo/RandomDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/common/string/demo/StringBufferDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/common/string/demo/StringBuilderDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/common/string/demo/StringDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/db/util/JdbcUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/exception/demo/Area.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/exception/demo/AreaException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/exception/demo/ExceptionDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/exception/demo/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/exception/demo/Round.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/io/demo/CopyFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/io/demo/Demo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/io/demo/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/io/demo/Demo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/io/demo/Demo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/io/demo/FileReaderDome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/io/demo/FileUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/io/demo/ReadFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/io/demo/WriteFull.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/networking/getResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/networking/socket/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/networking/socket/Server$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/networking/socket/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/networking/talk/TalkSend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/networking/talk/TalkServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/networking/talk/TalkStubent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/networking/talk/TalkTeacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/pattern/adpater/AbstraoAdpater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/pattern/adpater/AdpaterVoltage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/pattern/adpater/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/pattern/adpater/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/pattern/adpater/Voltage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/pattern/adpater/Voltage200.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/pattern/adpater/Voltage5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/pattern/demo4/AbstractFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/pattern/demo4/Button.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/pattern/demo4/LinuxButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/pattern/demo4/LinuxFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/pattern/demo4/LinuxText.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/pattern/demo4/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/pattern/demo4/Text.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/pattern/demo4/WindowsButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/pattern/demo4/WindowsFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/pattern/demo4/WindowsText.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/pattern/demo5/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/pattern/demo5/AnimalFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/pattern/demo5/BlackAnimalFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/pattern/demo5/BlackCat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/pattern/demo5/BlackDog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/pattern/demo5/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/pattern/demo5/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/pattern/demo5/WhiteAnimal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/pattern/demo5/WhiteCat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/pattern/demo5/WhiteDog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/pattern/demo6/DynamicProxy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/pattern/demo6/ProxySubject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/pattern/demo6/Subject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/pattern/demo6/SubjectImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/pattern/demo6/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/reflection/createfile/Mytxt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/reflection/createfile/NewInstanceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/struct/demo/ArrayListDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/struct/demo/MapDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/thread/demo/ImplRannable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/thread/demo/MyThread$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/thread/demo/MyThread$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/thread/demo/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/thread/demo/MyThreadOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/thread/demo/MyThreadTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/thread/demo/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/thread/demo/Test3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/thread/demo/Test4$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/thread/demo/Test4$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/thread/demo/Test4$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/thread/demo/Test4$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/thread/demo/Test4$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/thread/demo/Test4$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/thread/demo/Test4$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/thread/demo/Test4$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/thread/demo/Test4$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/thread/demo/Test4$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/thread/demo/Test4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/thread/demo/ThreadDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/main/io/yovelas/thread/demo/ThreadJoinDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/test/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/test/io/yovelas/thread/demo/ThreadDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/test/io/yovelas/thread/demo/ThreadDemo$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/test/io/yovelas/thread/demo/ThreadDemo$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/test/io/yovelas/thread/demo/ThreadDemo$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/test/io/yovelas/thread/demo/ThreadDemo$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/test/io/yovelas/thread/demo/ThreadDemo$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/classes/java/test/io/yovelas/thread/demo/ThreadDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/reports/tests/test/classes/io.yovelas.thread.demo.ThreadDemo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/reports/tests/test/packages/io.yovelas.thread.demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/resources/main/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/test-results/test/TEST-io.yovelas.thread.demo.ThreadDemo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/libs/commons-io-2.6-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/libs/commons-io-2.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/libs/mysql-connector-java-8.0.20.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/Extract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/HtmlToPdf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/MainView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/annotation/demo/AnnotationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/annotation/demo/Column.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/annotation/demo/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/annotation/demo/Table.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/annotation/demo/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/annotation/demo/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/arithmetic/SortDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/common/BigDecimalDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/common/BigIntegerDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/common/DataConversionDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/common/array/demo/ArrayDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/common/array/demo/ArraysDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/common/character/demo/CharDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/common/date/demo/CalendarDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/common/date/demo/DateDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/common/date/demo/SimpleDataFormatDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/common/math/demo/MathDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/common/random/demo/RandomDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/common/string/demo/StringBufferDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/common/string/demo/StringBuilderDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/common/string/demo/StringDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/db/util/JdbcUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/exception/demo/Area.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/exception/demo/AreaException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/exception/demo/ExceptionDemo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/exception/demo/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/exception/demo/Round.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/io.demo/CopyFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/io.demo/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/io.demo/Demo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/io.demo/Demo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/io.demo/FileReaderDome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/io.demo/FileUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/io.demo/ReadFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/io.demo/WriteFull.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/networking/getResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/networking/socket/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/networking/socket/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/networking/talk/TalkSend.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/networking/talk/TalkServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/networking/talk/TalkStubent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/networking/talk/TalkTeacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/pattern/adpater/AbstraoAdpater.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/pattern/adpater/AdpaterVoltage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/pattern/adpater/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/pattern/adpater/Test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/pattern/adpater/Voltage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/pattern/adpater/Voltage200.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/pattern/adpater/Voltage5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/pattern/demo4/AbstrotFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/pattern/demo4/Button.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/pattern/demo4/LinuxButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/pattern/demo4/LinuxFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/pattern/demo4/LinuxText.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/pattern/demo4/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/pattern/demo4/Text.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/pattern/demo4/WindowsButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/pattern/demo4/WindowsFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/pattern/demo4/WindowsText.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/pattern/demo5/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/pattern/demo5/AnimalFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/pattern/demo5/BlackAnimalFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/pattern/demo5/BlackCat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/pattern/demo5/BlackDog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/pattern/demo5/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/pattern/demo5/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/pattern/demo5/WhiteAnimal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/pattern/demo5/WhiteCat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/pattern/demo5/WhiteDog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/pattern/demo6/DynamicProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/pattern/demo6/ProxySubject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/pattern/demo6/Subject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/pattern/demo6/SubjectImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/pattern/demo6/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/reflection/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/reflection/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/reflection/createfile/Mytxt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/reflection/createfile/NewInstanceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/reflection/pro.propertype" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/struct/demo/ArrayListDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/struct/demo/MapDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/thread/demo/ImplRannable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/thread/demo/MyThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/thread/demo/Test2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/thread/demo/Test3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/thread/demo/Test4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/thread/demo/ThreadDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/java/io/yovelas/thread/demo/ThreadJoinDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/main/resources/jdbc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/test/java/Test2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSeDemo/src/test/java/io/yovelas/thread/demo/ThreadDemo.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JavaSeDemo" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JavaSeDemo" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JavaSeDemo" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="JavaSeDemo" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\dykew\Downloads\ideaIC-2020.2.win\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ifvoi9uaSCyJlmf8l4kBAXLwWT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager" selected="Gradle.ThreadDemo.threadSleep">
+    <configuration name="Test2.abortedTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;Test2.abortedTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Test2.setUp" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;Test2.setUp&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Test2.succeedingTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;Test2.succeedingTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Test2.timeoutExceeded" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;Test2.timeoutExceeded&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ThreadDemo.threadSleep" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;io.yovelas.thread.demo.ThreadDemo.threadSleep&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.ThreadDemo.threadSleep" />
+        <item itemvalue="Gradle.Test2.setUp" />
+        <item itemvalue="Gradle.Test2.timeoutExceeded" />
+        <item itemvalue="Gradle.Test2.succeedingTest" />
+        <item itemvalue="Gradle.Test2.abortedTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="835264b1-d8ce-47b5-9732-9bdfee2315c5" name="Default Changelist" comment="" />
+      <created>1602311638046</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602311638046</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602312729631">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/-800.0.800.1280@0.0.1920.1050" timestamp="1602312729631" />
+    <state width="801" height="1224" key="GridCell.Tab.0.bottom" timestamp="1602324012309">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="801" height="1224" key="GridCell.Tab.0.bottom/0.0.1920.1050/-800.0.800.1280@0.0.1920.1050" timestamp="1602324012309" />
+    <state width="801" height="1224" key="GridCell.Tab.0.center" timestamp="1602324012308">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="801" height="1224" key="GridCell.Tab.0.center/0.0.1920.1050/-800.0.800.1280@0.0.1920.1050" timestamp="1602324012308" />
+    <state width="801" height="1224" key="GridCell.Tab.0.left" timestamp="1602324012308">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="801" height="1224" key="GridCell.Tab.0.left/0.0.1920.1050/-800.0.800.1280@0.0.1920.1050" timestamp="1602324012308" />
+    <state width="801" height="1224" key="GridCell.Tab.0.right" timestamp="1602324012308">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="801" height="1224" key="GridCell.Tab.0.right/0.0.1920.1050/-800.0.800.1280@0.0.1920.1050" timestamp="1602324012308" />
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1602321717529">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050/-800.0.800.1280@0.0.1920.1050" timestamp="1602321717529" />
+    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1602321717528">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.center/0.0.1920.1050/-800.0.800.1280@0.0.1920.1050" timestamp="1602321717528" />
+    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1602321717528">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.left/0.0.1920.1050/-800.0.800.1280@0.0.1920.1050" timestamp="1602321717528" />
+    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1602321717529">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.1.right/0.0.1920.1050/-800.0.800.1280@0.0.1920.1050" timestamp="1602321717529" />
+    <state x="461" y="169" key="SettingsEditor" timestamp="1602311757184">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="169" key="SettingsEditor/0.0.1920.1050/-800.0.800.1280@0.0.1920.1050" timestamp="1602311757184" />
+  </component>
+</project>
